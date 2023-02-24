@@ -46,8 +46,6 @@ Sidekiq.configure_server do |config|
 end
 ##
 
-require 'simplecov'
-
 require File.expand_path("../../lib/sidekiq-rate-limiter", __FILE__)
 ##
 
